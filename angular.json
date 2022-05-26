@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "web-api": "libs/web-api",
+    "web-client": "apps/web-client",
+    "web-client-e2e": "apps/web-client-e2e"
+  }
+}
