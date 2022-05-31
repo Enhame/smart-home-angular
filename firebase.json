@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "dist/apps/web-client",
     "predeploy": "npm run build",
     "ignore": [
       "firebase.json",
