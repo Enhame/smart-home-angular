@@ -9,6 +9,7 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "strictPropertyInitialization": false,
+    "strictNullChecks": false,
     "target": "es2015",
     "module": "esnext",
     "lib": ["es2017", "dom"],
@@ -16,7 +17,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@smart-home/web-api": ["libs/web-api/src/index.ts"]
+      "@smart-home/app-conf": ["libs/app-conf/src/index.ts"],
+      "@smart-home/web-api": ["libs/web-api/src/index.ts"],
+      "@smart-home/web-api/enums": ["libs/web-api/src/enums/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

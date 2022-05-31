@@ -1,1 +1,27 @@
-<smart-home-nx-welcome></smart-home-nx-welcome>
+<!--<smart-home-nx-welcome></smart-home-nx-welcome>-->
+<div class="layout">
+  <mat-drawer-container [hasBackdrop]="true" autosize>
+    <mat-drawer #drawer mode="over">
+      kek
+    </mat-drawer>
+
+    <div class="header">
+      <mat-toolbar color="primary">
+        <button mat-icon-button>
+          <mat-icon (click)="drawer.toggle()">menu</mat-icon>
+        </button>
+        <span data-test-name="page-title">Smart home</span>
+        <span class="spacer"></span>
+        <button mat-icon-button>
+          <mat-icon>favorite</mat-icon>
+        </button>
+        <button mat-icon-button>
+          <mat-icon>share</mat-icon>
+        </button>
+      </mat-toolbar>
+    </div>
+    <div class="main">
+    </div>
+
+  </mat-drawer-container>
+</div>
